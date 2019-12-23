@@ -9,86 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3cb711-6438-4dc4-a7b3-8c142e0d9b47" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_bigkoo_pickerview_2_0_8_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android-AlarmManagerClock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlarmManagerClockDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/alarmmanagerclock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/alarmmanagerclock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/androidTest/java/com/loonggg/lib/alarmmanager/clock/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/androidTest/java/com/zxn/alarmmanager/clock/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/loonggg/lib/alarmmanager/clock/AlarmManagerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/AlarmManagerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/loonggg/lib/alarmmanager/clock/ClockAlarmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/ClockAlarmActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/loonggg/lib/alarmmanager/clock/LoongggAlarmReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/LoongggAlarmReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/loonggg/lib/alarmmanager/clock/SimpleDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/SimpleDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmmanagerclock/src/test/java/com/loonggg/lib/alarmmanager/clock/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmmanagerclock/src/test/java/com/zxn/alarmmanager/clock/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/loonggg/alarmmanager/clock/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/clock/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/loonggg/alarmmanager/clock/view/SelectRemindCyclePopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/clock/view/SelectRemindCyclePopup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/loonggg/alarmmanager/clock/view/SelectRemindWayPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/clock/view/SelectRemindWayPopup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-    </list>
+    <list default="true" id="cf3cb711-6438-4dc4-a7b3-8c142e0d9b47" name="Default" comment="项目结构完善" />
     <ignored path="AlarmManagerClockDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,14 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/clock/view/SelectRemindCyclePopup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="-1099">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -210,11 +140,6 @@
             </path>
             <path>
               <item name="Android-AlarmManagerClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Android-AlarmManagerClock" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Android-AlarmManagerClock" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -228,7 +153,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="device.picker.selection" value="M9N7N15911011747" />
-    <property name="last_opened_file_path" value="D:/bloodpress_as_workspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -579,6 +504,21 @@
       <option name="presentableId" value="Default" />
       <updated>1464061092319</updated>
     </task>
+    <task id="LOCAL-00001" summary="项目结构重新整理">
+      <created>1577113339091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113339091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目结构完善">
+      <created>1577113361414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113361414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,15 +527,15 @@
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Resources Explorer" />
-      <window_info id="Project" order="0" visible="true" weight="0.24839056" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.24839056" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Palette&#9;" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32979977" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" weight="0.32979977" />
+      <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
@@ -663,37 +603,40 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目结构重新整理" />
+    <MESSAGE value="项目结构完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目结构完善" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/androidTest/java/com/zxn/alarmmanager/clock/ApplicationTest.java">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/androidTest/java/com/zxn/alarmmanager/clock/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/drawable/dialog_bg.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/drawable/dialog_bg.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/layout/dialog_simple.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/layout/dialog_simple.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/SimpleDialog.java">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/java/com/zxn/alarmmanager/clock/SimpleDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
@@ -703,15 +646,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/layout/activity_clock_alarm.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/layout/activity_clock_alarm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/LoongggAlarmReceiver.java">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/java/com/zxn/alarmmanager/clock/LoongggAlarmReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="37" selection-start-line="37" selection-end-line="37" />
@@ -747,11 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/res/values/color.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
@@ -809,14 +750,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/AlarmManagerUtil.java">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/java/com/zxn/alarmmanager/clock/AlarmManagerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/src/main/java/com/zxn/alarmmanager/clock/ClockAlarmActivity.java">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/src/main/java/com/zxn/alarmmanager/clock/ClockAlarmActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
@@ -848,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bigkoo/pickerview/2.0.8/2c19439e538e49b380d264655395585ec43fbf98/pickerview-2.0.8-sources.jar!/com/bigkoo/pickerview/TimePickerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -862,7 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alarmmanagerclock/build.gradle">
+    <entry file="file://$PROJECT_DIR$/alarmmanager-clock/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
@@ -890,11 +824,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/clock/view/SelectRemindCyclePopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="-1099">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
