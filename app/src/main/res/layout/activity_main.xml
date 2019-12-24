@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:textColor="@color/c_40e1a6"
         android:id="@+id/date_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         android:text="选择时间"/>
 
     <TextView
+        android:textColor="@color/c_40e1a6"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="50dp"
@@ -30,12 +32,14 @@
         >
 
         <TextView
+            android:textColor="@color/c_40e1a6"
             android:id="@+id/tv_repeat"
             style="@style/item_text_style"
             android:layout_alignParentLeft="true"
             android:text="重复"/>
 
         <TextView
+            android:textColor="@color/c_40e1a6"
             android:id="@+id/arrow_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,12 +70,14 @@
         >
 
         <TextView
+            android:textColor="@color/c_40e1a6"
             android:id="@+id/ring_tv"
             style="@style/item_text_style"
             android:layout_alignParentLeft="true"
             android:text="铃声"/>
 
         <TextView
+            android:textColor="@color/c_40e1a6"
             android:id="@+id/arrow_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,12 +98,14 @@
     </RelativeLayout>
 
     <TextView
+        android:textColor="@color/c_40e1a6"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/line_and_outline_grey"/>
 
 
     <Button
+        android:textColor="@color/c_40e1a6"
         android:id="@+id/set_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
