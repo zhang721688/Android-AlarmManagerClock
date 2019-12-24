@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bigkoo.pickerview.TimePickerView;
+import com.zcommon.lib.SystemSPUtil;
 import com.zxn.clock.view.SelectRemindCyclePopup;
 import com.zxn.clock.view.SelectRemindWayPopup;
 import com.zxn.alarmmanager.clock.AlarmManagerUtil;
@@ -18,6 +19,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private static final String CLOCK_TIME = "clock_time";
     private TextView date_tv;
     private TimePickerView pvTime;
     private RelativeLayout repeat_rl, ring_rl;
@@ -53,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onTimeSelect(Date date) {
                 time = getTime(date);
                 date_tv.setText(time);
+                Long dateTime = date.getTime();
+                SystemSPUtil.saveData(MainActivity.this,CLOCK_TIME,dateTime);
             }
         });
 
@@ -63,6 +67,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        Object data = SystemSPUtil.getData(this, CLOCK_TIME, -1L);
+        if ( data instanceof Long) {
+            Long dateTime = (Long) data;
+            if (-1 != dateTime){
+                Date date = new Date(dateTime);
+                time = getTime(date);
+                date_tv.setText(time);
+            }
+        }
     }
 
     public static String getTime(Date date) {
