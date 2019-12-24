@@ -4,6 +4,15 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
+    signingConfigs {
+        release {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../my.keystore')
+            storePassword 'android'
+        }
+    }
+
     defaultConfig {
         applicationId "com.zxn.clock"
         minSdkVersion 15
@@ -15,6 +24,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 }
