@@ -1,7 +1,9 @@
 package com.zxn.clock;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -9,17 +11,26 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.bigkoo.pickerview.TimePickerView;
 import com.zcommon.lib.SystemSPUtil;
+import com.zcommon.lib.UIUtils;
+import com.zxn.alarmmanager.clock.AlarmManagerUtil;
 import com.zxn.clock.view.SelectRemindCyclePopup;
 import com.zxn.clock.view.SelectRemindWayPopup;
-import com.zxn.alarmmanager.clock.AlarmManagerUtil;
+import com.zxn.titleview.TitleView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String CLOCK_TIME = "clock_time";
+    @BindView(R.id.title_common)
+    TitleView titleCommon;
     private TextView date_tv;
     private TimePickerView pvTime;
     private RelativeLayout repeat_rl, ring_rl;
@@ -30,10 +41,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int cycle;
     private int ring;
 
+    public static void jumpTo(Context context) {
+        Intent intent = new Intent(context, MainActivity.class);
+        context.startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
+        onInitTitle();
         allLayout = (LinearLayout) findViewById(R.id.all_layout);
         set_btn = (Button) findViewById(R.id.set_btn);
         set_btn.setOnClickListener(this);
@@ -56,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 time = getTime(date);
                 date_tv.setText(time);
                 Long dateTime = date.getTime();
-                SystemSPUtil.saveData(MainActivity.this,CLOCK_TIME,dateTime);
+                SystemSPUtil.saveData(MainActivity.this, CLOCK_TIME, dateTime);
             }
         });
 
@@ -68,14 +87,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         Object data = SystemSPUtil.getData(this, CLOCK_TIME, -1L);
-        if ( data instanceof Long) {
+        if (data instanceof Long) {
             Long dateTime = (Long) data;
-            if (-1 != dateTime){
+            if (-1 != dateTime) {
                 Date date = new Date(dateTime);
                 time = getTime(date);
                 date_tv.setText(time);
             }
         }
+    }
+
+    private void onInitTitle() {
+        TextView view = new TextView(this);
+        view.setText("确定");
+        view.setTextColor(UIUtils.getColor(R.color.c_ffffff));
+        view.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
+        view.setOnClickListener(v -> addClock());
+        titleCommon.addRightView(view);
     }
 
     public static String getTime(Date date) {
@@ -106,10 +134,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (cycle == 0) {//是每天的闹钟
                 AlarmManagerUtil.setAlarm(this, 0, Integer.parseInt(times[0]), Integer.parseInt
                         (times[1]), 0, 0, "闹钟响了", ring);
-            } if(cycle == -1){//是只响一次的闹钟
+            }
+            if (cycle == -1) {//是只响一次的闹钟
                 AlarmManagerUtil.setAlarm(this, 1, Integer.parseInt(times[0]), Integer.parseInt
                         (times[1]), 0, 0, "闹钟响了", ring);
-            }else {//多选，周几的闹钟
+            } else {//多选，周几的闹钟
+                String weeksStr = parseRepeat(cycle, 1);
+                String[] weeks = weeksStr.split(",");
+                for (int i = 0; i < weeks.length; i++) {
+                    AlarmManagerUtil.setAlarm(this, 2, Integer.parseInt(times[0]), Integer
+                            .parseInt(times[1]), i, Integer.parseInt(weeks[i]), "闹钟响了", ring);
+                }
+            }
+            Toast.makeText(this, "闹钟设置成功", Toast.LENGTH_LONG).show();
+        }
+
+    }
+
+    private void addClock() {
+        if (time != null && time.length() > 0) {
+            String[] times = time.split(":");
+            if (cycle == 0) {//是每天的闹钟
+                AlarmManagerUtil.setAlarm(this, 0, Integer.parseInt(times[0]), Integer.parseInt
+                        (times[1]), 0, 0, "闹钟响了", ring);
+            }
+            if (cycle == -1) {//是只响一次的闹钟
+                AlarmManagerUtil.setAlarm(this, 1, Integer.parseInt(times[0]), Integer.parseInt
+                        (times[1]), 0, 0, "闹钟响了", ring);
+            } else {//多选，周几的闹钟
                 String weeksStr = parseRepeat(cycle, 1);
                 String[] weeks = weeksStr.split(",");
                 for (int i = 0; i < weeks.length; i++) {

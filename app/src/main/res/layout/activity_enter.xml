@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterActivity">
+
+    <com.zxn.titleview.TitleView
+        android:id="@+id/title_common"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/c_00bb9c"
+        app:titleText="闹钟"
+        app:titleTextColor="@color/c_ffffff" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_add_clock"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@drawable/bg_sp_oval_r10_stroke"
+        android:gravity="center"
+        android:text="新建"
+        android:textColor="@color/c_40e1a6" />
+</RelativeLayout>
