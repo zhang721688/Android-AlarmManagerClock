@@ -68,15 +68,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pvTime.setCyclic(false);
         pvTime.setCancelable(true);
         //时间选择后回调
-        pvTime.setOnTimeSelectListener(new TimePickerView.OnTimeSelectListener() {
-
-            @Override
-            public void onTimeSelect(Date date) {
-                time = getTime(date);
-                date_tv.setText(time);
-                Long dateTime = date.getTime();
-                SystemSPUtil.saveData(MainActivity.this, CLOCK_TIME, dateTime);
-            }
+        pvTime.setOnTimeSelectListener(date -> {
+            time = getTime(date);
+            date_tv.setText(time);
+            Long dateTime = date.getTime();
+            SystemSPUtil.saveData(MainActivity.this, CLOCK_TIME, dateTime);
         });
 
         date_tv.setOnClickListener(new View.OnClickListener() {

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sml_common"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_60">
+
+    <com.zxn.iconitemview.IconItemView
+        android:id="@+id/iiv_printer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:clickable="true"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        app:leftIcon="@drawable/printer"
+        app:leftIconPadding="@dimen/dp_15"
+        app:rightIcon="@drawable/arrow"
+        app:rightText="启用"
+        app:rightTextColor="@color/c_00bb9c"
+        app:rightTextPadding="@dimen/dp_15"
+        app:rightTextSize="@dimen/sp_14"
+        app:text="xx打印机"
+        app:textColor="@color/gray_666" />
+
+    <ImageView
+        android:id="@+id/btn_delete"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:background="@color/c_ff7462"
+        android:scaleType="center"
+        android:src="@drawable/ic_delete" />
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

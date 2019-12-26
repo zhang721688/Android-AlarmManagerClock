@@ -1,6 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    //配置使用jdk1.8
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
@@ -40,4 +47,7 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
     implementation 'com.zxn.titleview:TitleView:1.0.7'
+    implementation 'com.zxn.divider:dividerlibrary:1.1.2'
+    implementation 'com.zxn.iconitemview:iconitemview:1.0.9'
+    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
 }
